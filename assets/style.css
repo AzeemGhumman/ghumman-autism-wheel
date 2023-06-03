@@ -1,0 +1,18 @@
+.wrap {
+  width: 100%;
+  overflow: auto;
+}
+
+.fleft {
+  /* background: yellow; */
+  /* height: 100%; */
+}
+
+.fright {
+  /* background: pink; */
+  /* width: 100%; */
+}
+
+.Pane {
+  overflow: auto;
+}

@@ -13,13 +13,13 @@ def generateRows():
                             sector,
                             size="xl",
                             style={
-                                "text-align": "center",
                             },
                         ),
-                        span=4,
+                        span=6,
                         style={
                             "display": "flex",
-                            "align-items": "center",
+                            "alignItems": "flex-end",
+
                         },
                     ),
                     dmc.Col(
@@ -27,18 +27,18 @@ def generateRows():
                             id={"type": "points", "index": row_idx},
                             label="Points",
                             placeholder="",
-                            style={"width": 80},
+                            style={"width": 60},
                         ),
-                        span=2,
+                        span="auto",
                     ),
                     dmc.Col(
                         dmc.TextInput(
                             id={"type": "total", "index": row_idx},
                             label="Total",
                             placeholder="",
-                            style={"width": 80},
+                            style={"width": 60},
                         ),
-                        span=2,
+                        span="auto",
                     ),
                 ],
                 gutter="xl",

@@ -29,7 +29,7 @@ def generateRadialFigure(data):
                 marker_color=getColors()[sector_idx],
                 marker_line_color="black",
                 marker_line_width=1,
-                opacity=0.75,
+                opacity=0.7,
                 showlegend=True,
                 hoverinfo="skip",
                 name=sector_name,
@@ -54,12 +54,13 @@ def generateRadialFigure(data):
         r=[1.0] * len(missing_sectors),
         theta=[idx * 360 / total_sections for idx in missing_sectors],
         width=[360 / total_sections] * len(missing_sectors),
-        marker_color=["white"] * len(missing_sectors),
+        marker_color=["gray"] * len(missing_sectors),
         marker_line_color="black",
         marker_line_width=0,
-        opacity=1.0,
+        opacity=0.7,
         showlegend=False,
         hoverinfo="skip",
+        marker_pattern_shape="x"
     )
 
     figure_data = [plot_missing_sectors] + plot_sectors + [plot_boundaries]

@@ -1,14 +1,14 @@
 def getSectors():
     return [
         "Social Communication",
-        "Non verbal communication",
+        "Non-verbal Communication",
         "Relationships",
-        "Repetitive behavior/stims",
+        "Repetitive Behavior/Stims",
         "Routine",
         "Interests",
         "Sensory",
-        "Motor deficits",
-        "Adaptive functional skills",
+        "Motor Deficits",
+        "Adaptive Functional Skills",
         "Language",
         "Psychiatric Comorbidity",
         "General Health",
@@ -16,8 +16,8 @@ def getSectors():
         "Sleep",
         "Diet",
         "Academic",
-        "Executive function",
-        "Intellectual disability",
+        "Executive Function",
+        "Other",
     ]
 
 
