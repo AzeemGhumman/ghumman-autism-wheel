@@ -1,6 +1,6 @@
-# Ghumman's Autism Wheel
+# Autism Wheel
 
-This project helps you generate Ghumman's Autism Wheel. The interactive visualization is a Plotly Dash App.
+This project helps you generate Autism Wheel. The interactive visualization is a Plotly Dash App.
 
 ## Installation Guide
 

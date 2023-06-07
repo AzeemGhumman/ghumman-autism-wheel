@@ -13,7 +13,7 @@ server = app.server
 
 app.layout = html.Div(
     [
-        dmc.Title(f"Ghumman's Autism Wheel", order=1,
+        dmc.Title(f"Autism Wheel", order=1,
                   style={"marginTop": "10px", "textAlign": "center"}),
         html.Br(),
         html.Br(),
